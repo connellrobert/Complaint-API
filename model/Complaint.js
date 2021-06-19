@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 // mongoose.then((m) => {
 const complaintSchema = new mongoose.Schema({
   isAnonymous: Boolean,
-  name: String,
+  name: String, 
   complaintDescription: String,
   resolution: String,
   submission: Date,
